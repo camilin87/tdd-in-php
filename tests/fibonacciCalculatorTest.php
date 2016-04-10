@@ -26,12 +26,12 @@
             $this->assertEquals(1, $n);
         }
 
-        public function testFourthFibonacciNumber(){
+        public function testFifthFibonacciNumber(){
             $c = new FibonacciCalculator;
 
-            $n = $c->Get(3);
+            $n = $c->Get(4);
 
-            $this->assertEquals(2, $n);
+            $this->assertEquals(3, $n);
         }
     }
 ?>
