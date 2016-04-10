@@ -1,7 +1,11 @@
 <?php 
 class FibonacciCalculator {
     public function Get($index) {
-        return $index;
+        if ($index < 2){
+            return $index;
+        }
+
+        return 1;
     }
 }
 ?>
