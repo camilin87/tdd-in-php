@@ -17,5 +17,13 @@
 
             $this->assertEquals(1, $n);
         }
+
+        public function testThirdFibonacciNumber(){
+            $c = new FibonacciCalculator;
+
+            $n = $c->Get(2);
+
+            $this->assertEquals(1, $n);
+        }
     }
 ?>
