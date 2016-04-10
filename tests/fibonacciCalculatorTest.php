@@ -25,13 +25,5 @@
 
             $this->assertEquals(1, $n);
         }
-
-        public function testFifthFibonacciNumber(){
-            $c = new FibonacciCalculator;
-
-            $n = $c->Get(4);
-
-            $this->assertEquals(3, $n);
-        }
     }
 ?>
