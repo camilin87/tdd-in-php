@@ -4,7 +4,10 @@
     class FibonacciCalculatorTest extends PHPUnit_Framework_TestCase{
         public function testFibonacci(){
             $c = new FibonacciCalculator;
-            $c->Get(0);
+
+            $n = $c->Get(0);
+
+            $this->assertEquals(0, $n);
         }
     }
 ?>
