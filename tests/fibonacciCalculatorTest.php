@@ -25,5 +25,13 @@
 
             $this->assertEquals(1, $n);
         }
+
+        public function testFourthFibonacciNumber(){
+            $c = new FibonacciCalculator;
+
+            $n = $c->Get(3);
+
+            $this->assertEquals(2, $n);
+        }
     }
 ?>
