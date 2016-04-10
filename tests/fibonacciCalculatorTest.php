@@ -5,9 +5,9 @@
         public function testFibonacci(){
             $c = new FibonacciCalculator;
 
-            $n = $c->Get(0);
+            $n = $c->Get(1);
 
-            $this->assertEquals(0, $n);
+            $this->assertEquals(1, $n);
         }
     }
 ?>
