@@ -5,7 +5,7 @@ class FibonacciCalculator {
             return $index;
         }
 
-        return $this->Get(1) + 0;
+        return $this->Get(1) + $this->Get(0);
     }
 }
 ?>
