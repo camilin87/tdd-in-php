@@ -3,7 +3,8 @@
 
     class FibonacciCalculatorTest extends PHPUnit_Framework_TestCase{
         public function testFibonacci(){
-            new FibonacciCalculator().Get(0);
+            $c = new FibonacciCalculator;
+            $c->Get(0);
         }
     }
 ?>
